@@ -134,3 +134,4 @@ def get_recent_activity(db: Session = Depends(get_db)):
         "timestamp": e.timestamp,
         "transaction_ref": e.transaction_ref
     } for e in entries]
+

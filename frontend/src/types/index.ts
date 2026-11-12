@@ -123,3 +123,4 @@ export interface DashboardStats {
   risk_alerts: number;
   kill_switch_active: boolean;
 }
+

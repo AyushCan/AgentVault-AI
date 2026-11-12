@@ -39,3 +39,4 @@ def list_vendor_products(vendor_id: str, db: Session = Depends(get_db)):
 @router.get("/products/all", response_model=List[ProductOut])
 def list_all_products(db: Session = Depends(get_db)):
     return db.query(Product).all()
+

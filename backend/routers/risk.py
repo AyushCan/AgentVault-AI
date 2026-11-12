@@ -36,3 +36,4 @@ def risk_stats(db: Session = Depends(get_db)):
         "total_assessments": len(assessments),
         "distribution": categories
     }
+

@@ -56,3 +56,4 @@ Open your browser to [http://localhost:5173](http://localhost:5173).
 10. **Payment Gateway Adapters:** Default Mock Payment Mode with realistic bank response simulation + optional PayPal Sandbox integration.
 11. **Real-Time Monitoring Dashboard:** Telemetry on wallet allocation, spending trajectory, agent breakdown, outcome distributions, and live ledger stream.
 12. **Interactive Security Simulation Lab:** 6 interactive live attack/failure simulations (Budget Violation, Suspicious Vendor, Prompt Injection, Duplicate Purchase, Unauthorized Agent, Kill Switch).
+

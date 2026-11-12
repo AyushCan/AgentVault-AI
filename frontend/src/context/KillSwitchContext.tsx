@@ -54,3 +54,4 @@ export const useKillSwitch = () => {
   if (!context) throw new Error('useKillSwitch must be used within KillSwitchProvider');
   return context;
 };
+
